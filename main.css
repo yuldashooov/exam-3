@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.header__nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.header{
+    display:flex;
+    align-items:center;
+    height:70px;
+    background-color:#272C3D;
+}
+.container{
+    max-width:1280px;
+    width:100%;
+    margin:0 auto;
+}
+.header__list{
+    list-style:none;
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+.header__item{
+    text-decoration:none;
+    font-size:20;
+    color: white;
+    font-weight:400;
+    font-family:"Quantico";
+}
+.header__item:hover{
+color:orange;
+}
+.search__box{
+    width: 241.87px;
+height: 30px;
+display:flex;
+align-items: center;
+padding:5px 0px;
+background-color: #404864;
+justify-content: space-between;
+}
+form input{
+outline: none;
+border: none;
+background-color: transparent;
+}
+select{
+    background-color: transparent;
+    width: 165px;
+    padding: 10px 5px;
+}
+.section{
+    background-image: url(./Bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 554px;
+}
+.hero__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    justify-content: center;
+}
+.hero{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.hero__title{
+font-size: 32px;
+font-weight: 400;
+padding-top: 21px;
+padding-bottom: 5px;
+}
+.div__bg{
+    margin: 0 auto;
+    background: #1B1E27;
+width: 1189px;
+padding-top: 61px;
+padding-bottom: 129px;
+text-align: center;
+width: 740px;
+
+
+}
+.box__text{
+    font-family: "Quantico";
+font-size: 14px;
+font-weight: 400;
+color: white;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.mindiv{
+    
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    justify-content: center;
+}
+.wrapper , .hero{
+    background-color: black;    
+}
+.two{
+    padding-top:142px;
+}
+.wrapper__title{
+    padding-bottom: 30px;
+    font-family: "Quantico";
+font-size: 24px;
+color: white;
+font-weight: 400;
+text-align: left;
+
+}
+.grey{
+    background-color: #1B1E27;
+
+}
+.footer{
+    height: 70px;
+    display: flex;
+    
+    align-items: center;
+    background: #272C3D;
+
+}
+.nav__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
